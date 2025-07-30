@@ -1,1 +1,94 @@
 /*  your css code here. If applicable */
+:root {
+	--primary-color: #007bff;
+	--danger-color: #dc3545;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	color: #333;
+	padding: 20px;
+}
+
+.container {
+	max-width: 700px;
+	margin: 40px auto;
+	background: #fff;
+	padding: 30px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+
+h1 .primary-color {
+	color: var(--primary-color);
+	font-weight: 400;
+}
+
+/* Form Styles */
+.form-group {
+	margin-bottom: 15px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #555;
+}
+
+.form-control {
+	width: 100%;
+	padding: 8px;
+	font-size: 1rem;
+	line-height: 1.5;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	border: none;
+	background: var(--primary-color);
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.btn:hover {
+	background: #0069d9;
+}
+
+.table {
+	width: 100%;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+
+.table th,
+.table td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.table th {
+	background-color: #f8f9fa;
+}
+
+.delete {
+	background: var(--danger-color);
+	color: #fff;
+	border: none;
+	padding: 5px 9px;
+	cursor: pointer;
+	font-weight: bold;
+}
